@@ -1,0 +1,319 @@
+*{
+	scroll-behavior: smooth;
+}
+
+
+
+.main-box{
+margin-left: 2%;
+margin-right: -5%;	
+}
+
+
+.title-box{
+	padding-top: 15%; 
+	padding-right: 10%;
+	margin-left: 1%;
+}
+
+.my-logo{
+	width: 78%; 
+	height: auto;
+	box-shadow: 0 30px 30px rgba(0,0,0,.5);
+	filter: grayscale(90%);
+}
+
+.title{
+	font-size: 60px;
+	font-weight: 700px;
+}
+
+.description{
+	font-size: 25px; 
+}
+
+.social-icons{
+	padding-top: 20px;
+	padding-left: 0;
+	list-style: none;
+	display: inline-flex;
+
+}
+
+.social-icon{
+	width: 20%;
+	padding-right: 30px;
+	cursor: pointer; 
+}
+
+.so-icon{
+	width: 30px;
+}
+
+.portfolio-bt{
+	margin: 5%;
+	margin-left: 0%;
+	width: 150px;
+	border-radius: 30px;
+	background-color: #ff1967;
+	color: white;
+}
+
+
+.container{
+	padding: 2%;
+}
+
+
+
+.about-title{
+	font-weight: bold;
+	font-size: 80px;
+	margin: 4%;
+	width: 100%;
+}
+
+.about-detail1{
+	padding: 20px;
+	padding-left: 50px;
+}
+
+.about-details{
+	padding: 20px;
+	padding-left: 50px;
+}
+
+
+.progress{
+	width: 80%;
+	margin-left: 15px;
+	height: 5px;
+}
+
+.progress-bar{
+	color: black;
+	background-color: black;
+}
+
+.skill-name{
+	font-size: 15px;
+	padding: 10px;
+	padding-left: 15px;
+}
+
+
+
+
+.my-work{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	margin-top: 2%;
+	background-color: ;
+	border: 0px solid rgba(0,0,0,0.9);
+}
+
+.work-title{
+	font-size: 70px;
+	font-weight: bold;
+	margin: 4%;
+	width: 100%;
+}
+
+
+.work{
+  border: 5px solid black;
+  background-color: white;
+  width: 80%;
+  height: auto;
+  margin: 15%;
+  margin-top: 0;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0 30px 30px rgba(0,0,0,.5);
+}
+
+.work:hover{
+	cursor: pointer;
+}
+
+.work-name{
+	padding-top: 20px; 
+	margin: 0; 
+	margin-bottom: 10px;
+	font-size: 25px; 
+	font-weight: bold;
+}
+
+.work-desc{
+	text-align: center;
+	padding: 40px;
+}
+
+.row {
+  width: 100%;
+}
+
+.col-lg-4 {
+  	float: left;
+    width: 33.33%;
+}
+
+.col-sm-12 {
+  	float: left;
+    width: 100%;
+}
+
+/*******************say-hello***************************/
+
+#say-hello{
+	background-color: rgba(0,0,0,0.1);
+}
+
+#say-hello div{
+	padding-top: 5%;
+}
+
+#say-hello p{
+	padding: 0;
+	line-height: 100px;
+	margin: 0;
+}
+
+.say-hello-btn{
+	margin-top: 3%;
+	width: 250px;
+	border-radius: 30px;
+	margin-bottom: 5%;
+	background-color: #ff1967;
+	color: white;
+	font-size: 20px;
+}
+
+/********************COUNTER*****************************/
+
+#counter-box{
+	padding: 100px;
+}
+
+.counter {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.count-text {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+
+.contact-me{
+	width: 100%;
+	height: 10%
+	margin: 10px;
+	padding-top: 0px;
+	background-color: rgba(0,0,0,0.0);
+	margin-bottom: 5%;
+}
+
+.cont-title{
+	font-weight: bold;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 70px;
+	margin-bottom: 3%;
+}
+
+.contact-details{
+	text-overflow: none;
+	font-family: arial;
+	font-size: 25px;
+	list-style: none;
+	margin-left: 10%;
+	padding-bottom: 5%;
+	margin-top: 7%;
+	margin-bottom: 0;
+}
+
+.details{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+}
+
+
+.contact-icons{
+	margin-left: 20%;
+	margin-top: 20px;
+	padding-top: 0px;
+	list-style: none;
+}
+
+.contact-icon{
+	width: 50px;
+	margin-right: 50px;
+	padding: 10px;
+	border: 4px solid black;
+	border-radius: 5px;
+}
+
+.contact-icon:hover{
+	border: 2px solid black;
+}
+
+.cont-form{
+	margin: 10px;
+	margin-left: 20px;
+	padding-bottom: 30px;
+	background-color: rgba(0,0,0,0.2); 
+	width: 400px; 
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 0 30px 30px rgba(0,0,0,.5);
+}
+
+::placeholder {
+  color: white;
+}
+
+#name{
+	width: 350px;
+	height: 40px;
+	margin: 5px;
+	border: 0px;
+	padding: 10px;
+	color: white;
+	background-color: rgba(0,0,0,0.6);
+}
+
+#email{
+	width: 350px;
+	height: 40px;
+	margin: 5px;
+	border: 0px;
+	padding: 10px;
+	color: white;
+	background-color: rgba(0,0,0,0.6);
+}
+
+#comment{
+	height: 200px;
+	width: 350px;
+	margin: 5px;
+	border: 0px;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+}
+
+.btn-submit{
+	margin-left: 50px;
+	width: 250px;
+	border-radius: 30px;
+	background-color: #ff1967;
+	color: white;
+}
